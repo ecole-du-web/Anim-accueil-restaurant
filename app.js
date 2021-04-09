@@ -9,7 +9,7 @@ function loader(){
     .to('.bloc-txt', {height: 'auto', duration: 0.6, ease: 'power2.out'}, '-=0.8')
     .to('.bloc-txt h2', {y: 0, ease: 'power2.out'}, '-=0.6')
 
-    .to('.f2', {y: 0, duration: 0.4, ease: 'power2.out'})
+    .to('.f2', {y: 0, duration: 0.6, ease: 'power2.out'})
     .add(() => {
         document.querySelector('.flip-img1').style.backgroundImage = "url('ressources/image1.jpg')";
     })
